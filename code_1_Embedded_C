@@ -1,0 +1,27 @@
+#include <stdlib.h>
+#include <stdio.h>
+#include <stdint.h>
+#include <stdbool.h>
+
+// for small board (TM4C123G)
+#include <TM4C123GH6PM.h>
+
+// for big board (TM4C1294)
+// #include <TH4C1294NCPDT.h>
+
+int main()
+{
+	SYSCTL->RCGCGPIO = 0X20;
+	
+	while ((SYSCTL->PRGPIO & 
+	
+
+	
+	
+	
+	
+	
+}
+
+
+
